@@ -13,8 +13,14 @@ export const XWins = () => <Board squares={[
   'X', null, null,
 ]}/>
 
-export const InProgress = () => <Board squares={[
+export const XIsNext = () => <Board squares={[
   'O', null, 'X',
   'X', 'X', 'O',
   'O', null, null,
 ]} />
+
+export const OIsNext = () => <Board squares={[
+  'O', null, 'X',
+  'X', 'X', 'O',
+  null, null, null,
+]} xIsNext={false} />
