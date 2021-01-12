@@ -6,7 +6,9 @@ const meta = {
   component: Square,
 };
 export default meta;
-
-export const Default = () => <Square />;
-export const Naught = () => <Square value="O" />;
-export const Cross = () => <Square value="X" />;
+const Template = (args) => <Square {...args} />;
+export const Default = Template.bind({});
+export const Naught = Template.bind({});
+Naught.args = { value: "O" };
+export const Cross = Template.bind({});
+Cross.args = { value: "X" };
