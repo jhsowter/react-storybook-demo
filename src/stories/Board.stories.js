@@ -3,9 +3,18 @@ import Board from "../components/Board";
 
 export default {
   title: "Example/Board",
-  component: Board
+  component: Board,
 };
 
-const Template = (args) => <Board />;
+export const Default = () => <Board />
+export const XWins = () => <Board squares={[
+  'O', null, 'X',
+  'O', 'X', 'O',
+  'X', null, null,
+]}/>
 
-export const Default = Template.bind({});
+export const InProgress = () => <Board squares={[
+  'O', null, 'X',
+  'X', 'X', 'O',
+  'O', null, null,
+]} />

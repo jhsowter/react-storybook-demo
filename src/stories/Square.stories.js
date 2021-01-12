@@ -7,5 +7,5 @@ export default {
 };
 
 export const Default = () => (<Square />)
-
-export const Filled = () => (<Square value="X"/>)
+export const Naught = () => (<Square value="O"/>)
+export const Cross = () => (<Square value="X"/>)

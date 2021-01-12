@@ -1,10 +1,28 @@
-import React from 'react';
-import Square from './Square';
+import React from "react";
+import Square from "./Square";
 import "./board.css";
 
 export default class Board extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      squares: props?.squares ?? Array(9).fill(null),
+    };
+  }
+
+  handleClick(i) {
+    const squares = this.state.squares.slice();
+    squares[i] = "X";
+    this.setState({ squares: squares });
+  }
+
   renderSquare(i) {
-    return <Square />;
+    return (
+      <Square
+        value={this.state.squares[i]}
+        onClick={() => this.handleClick(i)}
+      />
+    );
   }
 
   render() {
