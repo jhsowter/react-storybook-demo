@@ -3,10 +3,12 @@ import React from 'react';
 import { Page } from './Page';
 import * as HeaderStories from './Header.stories';
 
-export default {
+const meta = {
   title: 'Example/Page',
   component: Page,
 };
+
+export default meta;
 
 const Template = (args) => <Page {...args} />;
 
