@@ -1,7 +1,7 @@
 import React from "react";
-import Board from "./Board";
+import Board from "../Board";
 import "./game.css";
-import { calculateWinner, defaultBoard } from "../core";
+import { calculateWinner, defaultBoard } from "../../core";
 
 export default class Game extends React.Component {
   constructor(props) {
