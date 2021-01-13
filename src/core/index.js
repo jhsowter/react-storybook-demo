@@ -18,4 +18,8 @@ export function calculateWinner(squares) {
   return null;
 }
 
+export const naught = 'o';
+
+export const cross = 'x';
+
 export const defaultBoard = new Array(9).fill(null);

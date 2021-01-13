@@ -22,6 +22,10 @@ export default class Game extends React.Component {
     };
   }
 
+  nextPlayer(){
+    return this.state.xIsNext ? "x" : "o";
+  }
+
   handleClick(i) {
     const history = this.state.history.slice(0, this.state.stepNumber + 1);
     const current = history[history.length - 1];
@@ -29,7 +33,7 @@ export default class Game extends React.Component {
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
-    squares[i] = this.state.xIsNext ? "X" : "O";
+    squares[i] = this.nextPlayer();
     this.setState({
       history: history.concat([
         {
@@ -56,7 +60,7 @@ export default class Game extends React.Component {
     if (winner) {
       status = "Winner: " + winner;
     } else {
-      status = "Next player: " + (this.state.xIsNext ? "X" : "O");
+      status = "Next player: " + this.nextPlayer();
     }
     const moves = history.map((step, move) => {
       const desc = move ? "Go to move #" + move : "Go to game start";

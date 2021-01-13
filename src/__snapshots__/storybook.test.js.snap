@@ -11,41 +11,19 @@ exports[`Storyshots Example/Board Draw 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
-    </button>
-  </div>
-  <div
-    className="board-row"
-  >
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      X
-    </button>
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      X
-    </button>
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      O
+      o
     </button>
   </div>
   <div
@@ -55,19 +33,41 @@ exports[`Storyshots Example/Board Draw 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      X
+      o
+    </button>
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      o
+    </button>
+    <button
+      className="square"
+      onClick={[Function]}
+    >
+      x
     </button>
   </div>
 </div>
@@ -139,7 +139,7 @@ exports[`Storyshots Example/Board O Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
     <button
       className="square"
@@ -149,7 +149,7 @@ exports[`Storyshots Example/Board O Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
   </div>
   <div
@@ -159,19 +159,19 @@ exports[`Storyshots Example/Board O Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
   </div>
   <div
@@ -212,7 +212,7 @@ exports[`Storyshots Example/Board O Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
   </div>
   <div
@@ -222,19 +222,19 @@ exports[`Storyshots Example/Board O Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
   </div>
   <div
@@ -248,13 +248,13 @@ exports[`Storyshots Example/Board O Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
   </div>
 </div>
@@ -271,7 +271,7 @@ exports[`Storyshots Example/Board X Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
     <button
       className="square"
@@ -281,7 +281,7 @@ exports[`Storyshots Example/Board X Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
   </div>
   <div
@@ -291,19 +291,19 @@ exports[`Storyshots Example/Board X Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
   </div>
   <div
@@ -313,7 +313,7 @@ exports[`Storyshots Example/Board X Is Next 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
     <button
       className="square"
@@ -338,7 +338,7 @@ exports[`Storyshots Example/Board X Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
     <button
       className="square"
@@ -348,7 +348,7 @@ exports[`Storyshots Example/Board X Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
   </div>
   <div
@@ -358,19 +358,19 @@ exports[`Storyshots Example/Board X Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
       onClick={[Function]}
     >
-      O
+      o
     </button>
   </div>
   <div
@@ -380,7 +380,7 @@ exports[`Storyshots Example/Board X Wins 1`] = `
       className="square"
       onClick={[Function]}
     >
-      X
+      x
     </button>
     <button
       className="square"
@@ -498,7 +498,7 @@ exports[`Storyshots Example/Game Default 1`] = `
     className="game-info"
   >
     <div>
-      Next player: X
+      Next player: x
     </div>
     <ol>
       <li>
@@ -530,41 +530,19 @@ exports[`Storyshots Example/Game Draw 1`] = `
           className="square"
           onClick={[Function]}
         >
-          X
+          x
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          X
+          x
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          O
-        </button>
-      </div>
-      <div
-        className="board-row"
-      >
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          O
-        </button>
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          O
-        </button>
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          X
+          o
         </button>
       </div>
       <div
@@ -574,19 +552,41 @@ exports[`Storyshots Example/Game Draw 1`] = `
           className="square"
           onClick={[Function]}
         >
-          X
+          o
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          O
+          o
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          X
+          x
+        </button>
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          o
+        </button>
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          x
         </button>
       </div>
     </div>
@@ -595,7 +595,7 @@ exports[`Storyshots Example/Game Draw 1`] = `
     className="game-info"
   >
     <div>
-      Next player: X
+      Next player: x
     </div>
     <ol>
       <li>
@@ -694,35 +694,13 @@ exports[`Storyshots Example/Game O Wins 1`] = `
           className="square"
           onClick={[Function]}
         >
-          X
+          x
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          X
-        </button>
-      </div>
-      <div
-        className="board-row"
-      >
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          O
-        </button>
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          O
-        </button>
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          O
+          x
         </button>
       </div>
       <div
@@ -732,19 +710,41 @@ exports[`Storyshots Example/Game O Wins 1`] = `
           className="square"
           onClick={[Function]}
         >
-          X
+          o
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          X
+          o
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          O
+          o
+        </button>
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          o
         </button>
       </div>
     </div>
@@ -753,7 +753,7 @@ exports[`Storyshots Example/Game O Wins 1`] = `
     className="game-info"
   >
     <div>
-      Winner: O
+      Winner: o
     </div>
     <ol>
       <li>
@@ -812,13 +812,6 @@ exports[`Storyshots Example/Game O Wins 1`] = `
           Go to move #7
         </button>
       </li>
-      <li>
-        <button
-          onClick={[Function]}
-        >
-          Go to move #8
-        </button>
-      </li>
     </ol>
   </div>
 </div>
@@ -841,39 +834,19 @@ exports[`Storyshots Example/Game X Wins 1`] = `
           className="square"
           onClick={[Function]}
         >
-          X
+          x
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          X
+          x
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          X
-        </button>
-      </div>
-      <div
-        className="board-row"
-      >
-        <button
-          className="square"
-          onClick={[Function]}
-        />
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          O
-        </button>
-        <button
-          className="square"
-          onClick={[Function]}
-        >
-          X
+          x
         </button>
       </div>
       <div
@@ -887,13 +860,33 @@ exports[`Storyshots Example/Game X Wins 1`] = `
           className="square"
           onClick={[Function]}
         >
-          O
+          o
         </button>
         <button
           className="square"
           onClick={[Function]}
         >
-          O
+          x
+        </button>
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          o
+        </button>
+        <button
+          className="square"
+          onClick={[Function]}
+        >
+          o
         </button>
       </div>
     </div>
@@ -902,7 +895,7 @@ exports[`Storyshots Example/Game X Wins 1`] = `
     className="game-info"
   >
     <div>
-      Winner: X
+      Winner: x
     </div>
     <ol>
       <li>
@@ -1338,7 +1331,7 @@ exports[`Storyshots Example/Square Cross 1`] = `
 <button
   className="square"
 >
-  X
+  x
 </button>
 `;
 
@@ -1352,6 +1345,6 @@ exports[`Storyshots Example/Square Naught 1`] = `
 <button
   className="square"
 >
-  O
+  o
 </button>
 `;
